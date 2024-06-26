@@ -1,4 +1,4 @@
-Link para ver resultado: [FORMULARIO CON FIREBASE FINALIZADO](https://validar-formulario-js.netlify.app/)
+Link para ver resultado: [FORMULARIO CON FIREBASE FINALIZADO](https://pt-formulario-validacion-js.netlify.app/)
 
 A continuación, se explica el funcionamiento del código JavaScript:
 
