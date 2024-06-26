@@ -1,16 +1,8 @@
-## Link al curso completo de Javascript en Youtube:
-[VIDEO CURSO GRATIS COMPLETO: JavaScript Desde Cero por Sergie Code](https://youtu.be/N8Xt5rP_DUo)
-
-
-# Tutorial de Validación de Formulario con Firebase
-
 Link para ver resultado: [FORMULARIO CON FIREBASE FINALIZADO](https://validar-formulario-js.netlify.app/)
 
-Este es un tutorial paso a paso sobre cómo crear una aplicación de validación de formulario utilizando JavaScript y Firebase. La aplicación permite a los usuarios ingresar su nombre, correo electrónico y contraseña, y luego guarda los datos en una base de datos de Firebase. A continuación, se explica el funcionamiento del código JavaScript:
+A continuación, se explica el funcionamiento del código JavaScript:
 
 ## Configuración de Firebase
-
-Antes de comenzar, asegúrate de obtener los datos de configuración necesarios de Firebase. Debes tener una cuenta de Firebase y un proyecto configurado. Luego, reemplaza los valores de `API_KEY`, `authDomain`, `projectId`, `storageBucket`, `messagingSenderId`, `appId` y `measurementId` en el objeto `firebaseConfig` con los valores correspondientes proporcionados por Firebase.
 
     const firebaseConfig = {
       apiKey: "API_KEY",
@@ -108,4 +100,3 @@ Utilizamos otra expresión regular (`contrasenaPattern`) para validar la contras
 
 Si no hay mensajes de error en ninguno de los campos, procedemos a enviar el formulario. Utilizamos la función `add()` de Firestore para agregar un nuevo documento a la colección "users" en la base de datos de Firebase. El documento contiene los valores ingresados en los campos del formulario. Si el envío es exitoso, mostramos una alerta con un mensaje de éxito y restablecemos el formulario. Si ocurre algún error, mostramos una alerta con el mensaje de error.
 
-¡Y eso es todo! Ahora tienes un formulario de validación que guarda los datos en una base de datos de Firebase. Recuerda que debes tener configurada la parte HTML y CSS correspondiente, pero este README se enfoca en el código JavaScript. ¡Diviértete programando!
