@@ -1,0 +1,47 @@
+#formulario {
+  height: 50%;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #1d1a1a;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+  background-color: rgb(173, 169, 255);
+  margin-top: 10rem;
+  margin-left: 35rem;
+}
+body {
+  background-color: rgb(29, 199, 237);
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
